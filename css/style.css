@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+  width: 375px;
+  margin: 0 auto;
+}
+
+header {
+  height: 67px;
+  width: 375px;
+  background: #ffffff;
+  margin: 0 auto;
+  border-bottom: 2px solid #c6c6c6;
+}
+
+.header-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15px;
+}
+
+.header-logo {
+  width: 127px;
+  height: 33.02px;
+}
+
+.header-avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+
+/* main section one */
+main {
+  width: 375px;
+  height: 545px;
+  background-color: #ffffff;
+}
+
+.section-settings {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: start;
+  padding: 10px 10px;
+}
+
+.section-avatar {
+  margin-right: 8px;
+}
+
+.section-name {
+  font-weight: bold;
+  font-size: 13p;
+}
+
+.section-place {
+  font-size: 12px;
+}
+
+.section-post {
+  background-image: url("../images/post-image.png");
+  width: 375px;
+  height: 375px;
+}
+
+/* section interactions */
+
+.section-interactions {
+  padding: 15px 10px;
+}
+
+.icons {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 4px;
+}
+
+.bold-font {
+  font-weight: bold;
+}
+
+.settings {
+  text-align: start;
+  font-size: 13px;
+}
+
+.space {
+  padding: 6px 0px;
+}
